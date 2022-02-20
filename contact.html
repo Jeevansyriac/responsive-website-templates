@@ -1,0 +1,110 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+<body>
+    
+    
+    <section class="sub-header2">
+        
+            <nav>
+                <a href="webpage.html"><img src="photo/logo.jpg"></a>
+                <div class="nav-links" id="navLinks" >  
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="webpage.html">HOME</a></li>
+                        <li><a href="About.html">ABOUT</a></li>
+                        <li><a href="login1.html">LOGIN</a></li>
+                        <li><a href="gallary.html">GALLERY</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>  
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+        <h1>Contact us</h1>
+    
+</section>
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+    
+</script>
+<section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15716.131508436443!2d76.363457!3d10.014143!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7951f2e8492fd461!2siNFOX%20Technologies!5e0!3m2!1sen!2sin!4v1639934206980!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+</section>
+ 
+<section class="contact-us">
+
+    <div class="row">
+        <div class="contact-col">
+            <div>
+                <i class="fa fa-home"></i>
+                <span>
+                    <p>
+                        Ground floor, Carnival<br>
+                        phase 1 Infopark<br>
+                        Kakanad, Kochi,<br>
+                        kerala<br>
+                        Pin 682042<br>
+                    </p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-phone"></i>
+                <span>
+                    <p>
+                        +91 XXXXXXXXX
+                    </p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                <span>
+                    <p>
+                        info@xxxxtechnologies.com
+                    </p>
+                </span>
+            </div>
+        </div>
+        <div class="contact-col">
+            <form action="">
+                <input type=""placeholder="Enter your name"required>
+
+                <input type="email"placeholder="Enter your email"required>
+                <input type="Phone"placeholder="Enter your phone number"required>
+                <textarea rows="10" placeholder="message" required> </textarea><br>
+                <button type="submit" class="newsletter_submit_btn">Submit</button>
+            </form>
+        </div>
+    </div>
+
+</section>
+
+
+ <section class="footer">
+    <footer class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-linkedin"></i>
+      </footer>
+</section>
+ 
+ 
+    
+</body>
+</html>

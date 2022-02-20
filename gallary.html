@@ -1,0 +1,99 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css">
+    <link rel="stylesheet"href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <Script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></Script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+    
+    <section class="header4">
+        <nav>
+            <a href="webpage.html"><img src="photo/logo.jpg"></a>
+            <div class="nav-links" id="navLinks" >  
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="webpage.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="login1.html">LOGIN</a></li>
+                    <li><a href="gallary.html">GALLERY</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>  
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <h1 class="head">GALLERY</h1>
+
+        </section>
+        <script>
+            var navLinks = document.getElementById("navLinks");
+        
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        
+            
+        </script>
+        <section class="gallery">
+            <div class="container-fludi">
+                <div class="row mt-4">
+                    <div class="item col-sm-6 col-md-4 mb-3">
+                        <a href="photo/g2.png" class="fancy box" data-fancybox="gallery1">
+                        <img src="photo/g2.png"width="100%" height="100%"></a>
+                    </div>
+                    <div class="item col-sm-6 col-md-4 mb-3">
+                        <a href="photo/g5.jpg" class="fancy box" data-fancybox="gallery1">
+                        <img src="photo/g5.jpg"width="100%" height="100%"></a>
+                    </div>
+                    <div class="item col-sm-6 col-md-4 mb-3">
+                        <a href="photo/g6.jpg" class="fancy box" data-fancybox="gallery1">
+                        <img src="photo/g6.jpg"width="100%" height="100%"></a>
+                    </div>
+                    <div class="item col-sm-6 col-md-4 mb-3">
+                        <a href="photo/g8.jpg" class="fancy box" data-fancybox="gallery1">
+                        <img src="photo/g8.jpg"width="100%" height="100%"></a>
+                    </div>
+                    <div class="item col-sm-6 col-md-4 mb-3">
+                        <a href="photo/g9.jpg" class="fancy box" data-fancybox="gallery1">
+                        <img src="photo/g9.jpg"width="100%" height="100%"></a>
+                    </div>
+                    <div class="item col-sm-6 col-md-4 mb-3">
+                        <a href="photo/g10.jpg" class="fancy box" data-fancybox="gallery1">
+                        <img src="photo/g10.jpg"width="100%" height="100%"></a>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </section>
+
+    
+
+    
+<section class="footer">
+    <footer class="icons"> 
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-linkedin"></i>
+      </footer>
+</section>
+ 
+ 
+    
+</body>
+</html>
